@@ -1,7 +1,7 @@
 # Auto detect text files and perform LF normalization
-* text=auto
-* text eol=lf
-
+# * text=auto
+# * text eol=lf
+#
 # Don't do anything with binaries
 # *.png binary
 # *.jpg binary
@@ -28,3 +28,5 @@
 # *.swp binary
 # *.webp binary
 # *.jar binary
+pip install py -3 -m venv .venv
+pip install .venv\Scripts\activate
