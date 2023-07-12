@@ -136,3 +136,4 @@ dmypy.json
 # gulp build-browser
 # KundaliniProgram
 # App to set the environment for coding --save
+node_modules
