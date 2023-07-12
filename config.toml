@@ -4,6 +4,22 @@
 # https://github.com/toml-lang/toml
 
 [build-system]
+{
+  "name": "@ifsworld/token-interfaces",
+  "version": "1.0.1",
+  "license": "SEE LICENSE IN LICENSE",
+  "main": "bundles/ifsworld-token-interfaces.umd.js",
+  "module": "fesm2015/ifsworld-token-interfaces.js",
+  "es2015": "fesm2015/ifsworld-token-interfaces.js",
+  "esm2015": "esm2015/ifsworld-token-interfaces.js",
+  "fesm2015": "fesm2015/ifsworld-token-interfaces.js",
+  "typings": "ifsworld-token-interfaces.d.ts",
+  "metadata": "ifsworld-token-interfaces.metadata.json",
+  "sideEffects": false,
+  "dependencies": {
+    "tslib": "^2.0.0"
+  }
+}
 # These are the assumed default build requirements from pip:
 # https://pip.pypa.io/en/stable/reference/pip/#pep-517-and-518-support
 requires = ["setuptools>=40.8.0", "wheel"]
