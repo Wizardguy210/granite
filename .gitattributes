@@ -1,7 +1,7 @@
 # Auto detect text files and perform LF normalization
 # * text=auto
 # * text eol=lf
-#
+# node_modules
 # Don't do anything with binaries
 # *.png binary
 # *.jpg binary
